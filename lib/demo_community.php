@@ -1,5 +1,27 @@
 <?php
 
+namespace FriendsOfRedaxo\DemoCommunity;
+
+use rex;
+use rex_addon;
+use rex_backup;
+use rex_dir;
+use rex_functional_exception;
+use rex_i18n;
+use rex_install_archive;
+use rex_install_packages;
+use rex_install_webservice;
+use rex_logger;
+use rex_null_package;
+use rex_package;
+use rex_package_manager;
+use rex_path;
+use rex_yrewrite;
+
+use function count;
+
+use const DIRECTORY_SEPARATOR;
+
 class rex_demo_community
 {
     /** @var string[] */

@@ -1,5 +1,5 @@
 package: demo_community
-version: 4.2.0
+version: 4.3.0
 author: 'Friends Of REDAXO'
 supportpage: 'https://github.com/FriendsOfREDAXO/demo_community'
 page:
@@ -24,6 +24,6 @@ requires:
     php: '>=8.0'
 
 console_commands:
-    'demo_community:install': rex_command_demo_community_install
-    'demo_community:dump_files': rex_command_demo_community_dumpfiles
-    'demo_community:dump_tables': rex_command_demo_community_dumptables
+    'demo_community:install': FriendsOfRedaxo\DemoCommunity\rex_command_demo_community_install
+    'demo_community:dump_files': FriendsOfRedaxo\DemoCommunity\rex_command_demo_community_dumpfiles
+    'demo_community:dump_tables': FriendsOfRedaxo\DemoCommunity\rex_command_demo_community_dumptables
